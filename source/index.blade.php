@@ -12,9 +12,9 @@
                                 src="images/avatar.jpg"
                                 alt="Daniel Mason"
                             />
-                            <span class="block mt-6 text-4xl font-light uppercase tracking-wide text-grey-darkest">
+                            <h1 class="block mt-6 text-4xl font-light uppercase tracking-wide text-grey-darkest">
                                 Daniel Mason
-                            </span>
+                            </h1>
                             <span class="block mt-3 text-lg font-light text-grey-darkest">
                                 Senior Software Engineer
                             </span>
