@@ -5,7 +5,7 @@
         <div class="sm:mt-32">
             <div class="flex justify-center sm:mt-32">
                 <div class="w-full lg:w-1/2">
-                    <div class="bg-white shadow-lg p-6 rounded">
+                    <div class="bg-white shadow-lg p-6 rounded xl:mt-20">
                         <div class="text-center">
                             <img
                                 class="h-32 mx-auto block rounded-full shadow-lg"

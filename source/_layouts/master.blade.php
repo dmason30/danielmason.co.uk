@@ -17,8 +17,8 @@
         <title>Daniel Mason - Web Developer</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body class="bg-blue-dark text-black">
-        <div class="sm:h-144 background-section background-section-right-top bg-blue"></div>
+    <body class="bg-blue lg:bg-blue-dark text-black">
+        <div class="sm:h-128 lg:h-104 xl:h-144 background-section background-section-right-top lg:bg-blue"></div>
         @yield('body')
     </body>
 </html>
