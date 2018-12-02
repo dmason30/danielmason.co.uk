@@ -14,7 +14,7 @@
         <meta name="twitter:title" content="Daniel Mason - Web Developer">
         <meta name="twitter:title" content="Daniel Mason - Web Developer">
         <meta name="twitter:image" content="images/avatar.jpg">
-        <title>Daniel Mason</title>
+        <title>Daniel Mason - Web Developer</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
     <body class="bg-blue-dark text-black">
