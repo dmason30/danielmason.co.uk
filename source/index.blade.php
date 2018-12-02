@@ -15,9 +15,9 @@
                             <h1 class="block mt-6 text-4xl font-light uppercase tracking-wide text-grey-darkest">
                                 Daniel Mason
                             </h1>
-                            <span class="block mt-3 text-lg font-light text-grey-darkest">
+                            <h2 class="block mt-3 text-lg font-light text-grey-darkest">
                                 Senior Software Engineer
-                            </span>
+                            </h2>
                             <span class="block mt-3 text-xl font-light text-grey-darkest">
                                 @
                             </span><span class="block mt-3 text-xl font-light text-grey-darkest">

@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'baseUrl' => '',
+    'baseUrl' => 'https://danielmason.co.uk',
     'production' => false,
     'collections' => [],
 ];
