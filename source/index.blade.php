@@ -21,7 +21,7 @@
                             <span class="block mt-3 text-xl font-light text-grey-darkest">
                                 @
                             </span><span class="block mt-3 text-xl font-light text-grey-darkest">
-                                <a href="http:://www.travelmoneyclub.co.uk">
+                                <a href="https://www.travelmoneyclub.co.uk">
                                     <img class="h-12" src="images/TMC_Logo.png" alt="Travel Money Club" />
                                 </a>
                             </span>
