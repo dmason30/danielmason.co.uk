@@ -12,33 +12,34 @@
                                 src="images/avatar.jpg"
                                 alt="Daniel Mason"
                             />
-                            <h1 class="block mt-6 text-4xl font-light uppercase tracking-wide text-grey-darkest">
+                            <h1 class="block mt-6 text-4xl uppercase tracking-wide text-gray-700">
                                 Daniel Mason
                             </h1>
-                            <h2 class="block mt-3 text-lg font-light text-grey-darkest">
+                            <h2 class="block mt-3 text-lg text-gray-700">
                                 Senior Software Engineer
                             </h2>
-                            <span class="block mt-3 text-xl font-light text-grey-darkest">
+                            <span class="block mt-3 text-xl font-light text-gray-700">
                                 @
-                            </span><span class="block mt-3 text-xl font-light text-grey-darkest">
-                                <a href="https://www.travelmoneyclub.co.uk" title="Travel Money Club">
-                                    <img class="h-12" src="images/TMC_Logo.png" alt="Travel Money Club" />
-                                </a>
                             </span>
+
+                            <a href="https://www.travelmoneyclub.co.uk" title="Travel Money Club">
+                                <img class="h-12 mx-auto block" src="images/TMC_Logo.png" alt="Travel Money Club" />
+                            </a>
+
                             <div class="flex mt-8">
                                 <div class="w-1/3">
                                     <a href="//twitter.com/danmasonmp"  title="Twitter">
-                                        <img class="h-12" src="svg/Twitter_Logo_Blue.svg" alt="Twitter" />
+                                        <img class="h-12 mx-auto block" src="svg/Twitter_Logo_Blue.svg" alt="Twitter" />
                                     </a>
                                 </div>
                                 <div class="w-1/3">
                                     <a href="//github.com/dmason30" title="GitHub">
-                                        <img class="h-12" src="images/Octocat.png" alt="GitHub" />
+                                        <img class="h-12 mx-auto block" src="images/Octocat.png" alt="GitHub" />
                                     </a>
                                 </div>
                                 <div class="w-1/3">
                                     <a href="//linkedin.com/in/masondaniel" title="LinkedIn">
-                                        <img class="h-12" src="images/linkedin.png" alt="LinkedIn" />
+                                        <img class="h-12 mx-auto block" src="images/linkedin.png" alt="LinkedIn" />
                                     </a>
                                 </div>
                             </div>

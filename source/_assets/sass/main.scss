@@ -2,14 +2,13 @@
  * This injects Tailwind's base styles, which is a combination of
  * Normalize.css and some additional base styles.
  */
-@tailwind preflight;
+@tailwind base;
 
 /**
  * This injects any component classes registered by plugins.
  */
 @tailwind components;
-@import "components/background";
-@import "components/buttons";
+@import "components/transform";
 
 /**
  * This injects all of Tailwind's utility classes, generated based on your
