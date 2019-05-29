@@ -7,5 +7,5 @@ yarn-error.log
 .idea
 
 # Directories
-build_local
+build_*
 vendor
