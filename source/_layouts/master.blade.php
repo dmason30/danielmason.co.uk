@@ -17,8 +17,7 @@
         <title>Daniel Mason - Senior Software Engineer</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
     </head>
-    <body class="bg-blue-600 lg:bg-blue-700 text-black">
-        <div class="sm:h-128 lg:h-104 xl:h-144 h-80 w-full absolute z-n10 shadow-lg skew-4dg origin-tr lg:bg-blue-600"></div>
+    <body class="bg-blue-900 text-white">
         @yield('body')
     </body>
 </html>
