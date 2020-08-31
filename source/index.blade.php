@@ -2,8 +2,8 @@
 
 @section('body')
     <div class="container mx-auto px-4 py-8">
-        <div class="sm:mt-32">
-            <div class="flex justify-center sm:mt-32">
+        <div class="sm:mt-16">
+            <div class="flex justify-center">
                 <div class="w-full lg:w-1/2">
                     <div class="bg-transparent p-6 rounded">
                         <div class="text-center">
@@ -13,7 +13,7 @@
                                 alt="Daniel Mason"
                             />
                             <h1 class="block mt-6 text-4xl uppercase tracking-wide">
-                                Daniel Mason
+                                Dan Mason
                             </h1>
                             <h2 class="block mt-3 text-lg">
                                 Senior Software Engineer
@@ -30,6 +30,13 @@
                                 <div class="mt-8">
                                     <a href="https://www.travelmoneyclub.co.uk" title="Travel Money Club">
                                         <img class="h-12 mx-auto mb-12 block" src="images/tmc-logo.png" alt="Travel Money Club" />
+                                    </a>
+                                </div>
+
+                                <div class="mt-8">
+                                    <a href="https://fidum.uk" title="Blog and Open Source Projects">
+                                        <img class="h-12 mx-auto mb-12 block" src="images/fidum-logo.png" alt="Travel
+                                        Money Club" />
                                     </a>
                                 </div>
                             </div>
