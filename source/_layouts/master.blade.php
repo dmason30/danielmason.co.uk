@@ -16,6 +16,9 @@
         <meta name="twitter:image" content="images/avatar.jpg">
         <title>Daniel Mason - Senior Software Engineer</title>
         <link rel="stylesheet" href="{{ mix('css/main.css', 'assets/build') }}">
+        <!-- Fathom - beautiful, simple website analytics -->
+        <script src="https://cdn.usefathom.com/script.js" site="RFKASLGZ" defer></script>
+        <!-- / Fathom -->
     </head>
     <body class="bg-blue-900 text-white">
         @yield('body')
