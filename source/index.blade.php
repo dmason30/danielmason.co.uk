@@ -9,7 +9,7 @@
                         <div class="text-center">
                             <img
                                 class="h-32 mx-auto block rounded-full shadow-lg"
-                                src="images/avatar.jpg"
+                                src="https://www.gravatar.com/avatar/92127a0ccc2d0a99fbcf6faf79185d83?s=200"
                                 alt="Daniel Mason"
                             />
                             <h1 class="block mt-6 text-4xl uppercase tracking-wide">
