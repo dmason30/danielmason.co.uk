@@ -3,7 +3,7 @@
     $domain = 'https://danielmason.co.uk';
     $imageUrl = !str_contains($post->image, $domain) || app()->environment('production')
         ? $post->image
-        : str($post->image)->after($domain)->start('/')->toString()
+        : str($post->image)->after($domain)->start('/')->toString();
 @endphp
 
 <article
