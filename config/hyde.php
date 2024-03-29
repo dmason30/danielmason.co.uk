@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'name' => env('SITE_NAME', 'Dan Mason'),
+    'name' => env('SITE_TITLE', 'Dan Mason'),
 
     /*
     |--------------------------------------------------------------------------
@@ -116,7 +116,7 @@ return [
         'filename' => 'feed.xml',
 
         // The channel description.
-        'description' => env('SITE_NAME', 'Dan Mason').' RSS Feed',
+        'description' => env('SITE_TITLE', 'Dan Mason').' RSS Feed',
     ],
 
     /*
@@ -224,7 +224,7 @@ return [
         Meta::name('description', $description),
         Meta::name('keywords', 'Laravel, PJP, ReactJS, Vue, Dan Mason, Fidum, Daniel, Mason, Blog, Developer, Software, Engineer'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
-        Meta::property('site_name', env('SITE_NAME', 'Dan Mason - Personal Site')),
+        Meta::property('site_name', env('SITE_TITLE', 'Dan Mason - Personal Site')),
         Meta::property('description', $description),
     ],
 
