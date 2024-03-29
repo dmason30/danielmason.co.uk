@@ -217,15 +217,19 @@ return [
 
     'meta' => [
         Meta::name('author', 'Dan Mason'),
+        Meta::name('description', $description ='Discoveries by developer Dan Mason in the world of Laravel, PHP and all software engineering.'),
+        Meta::name('keywords', 'Laravel, PJP, ReactJS, Vue, Dan Mason, Fidum, Daniel, Mason, Blog, Developer, Software, Engineer'),
+        Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
+        Meta::property('url', 'https://danielmason.co.uk/'),
+        Meta::property('site_name', $title = env('SITE_TITLE', 'Dan Mason - Personal Site')),
+        Meta::property('description', $description),
         Meta::name('twitter:card', 'summary_large_image'),
         Meta::name('twitter:site', '@danmasonmp'),
         Meta::name('twitter:creator', '@danmasonmp'),
-        Meta::name('twitter:description', $description ='Discoveries by developer Dan Mason in the world of Laravel, PHP and all software engineering.'),
-        Meta::name('description', $description),
-        Meta::name('keywords', 'Laravel, PJP, ReactJS, Vue, Dan Mason, Fidum, Daniel, Mason, Blog, Developer, Software, Engineer'),
-        Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
-        Meta::property('site_name', env('SITE_TITLE', 'Dan Mason - Personal Site')),
-        Meta::property('description', $description),
+        Meta::name('twitter:description', $description),
+        Meta::name('twitter:title', $title),
+        Meta::property('image', '/assets/feature-card.png'),
+        Meta::property('image:alt', 'Dan Mason Image'),
     ],
 
     /*
