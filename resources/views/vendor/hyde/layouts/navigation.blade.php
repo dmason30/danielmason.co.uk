@@ -5,7 +5,7 @@
 <nav
     aria-label="Main navigation"
     id="main-navigation"
-    class="align-center flex w-full flex-wrap items-center border-b bg-[#d0d7de] bg-opacity-25 p-4 dark:border-none dark:bg-black md:flex-row md:border-none md:bg-inherit dark:md:bg-inherit xl:mx-auto xl:max-w-7xl"
+    class="align-center flex w-full flex-wrap items-center border-b bg-[#d0d7de] bg-opacity-25 p-4 dark:border-none dark:bg-black md:flex-row md:flex-nowrap md:border-none md:bg-inherit dark:md:bg-inherit xl:mx-auto xl:max-w-7xl"
 >
     <div
         class="flex flex-shrink-0 flex-grow items-center text-gray-700 dark:text-gray-200 md:flex-none"
@@ -20,20 +20,17 @@
     <div class="block md:hidden">
         <button
             id="navigation-toggle-button"
-            class="flex items-center px-3 py-1 hover:text-gray-700 dark:text-gray-200"
+            class="flex items-center p-2 hover:text-gray-700 dark:text-gray-200"
             aria-label="Toggle navigation menu"
             @click="navigationOpen = ! navigationOpen"
         >
             <svg
                 x-show="! navigationOpen"
                 title="Open Navigation Menu"
-                class="dark:fill-gray-200"
-                style="display: block"
+                class="block h-8 w-8 dark:fill-gray-200"
                 id="open-main-navigation-menu-icon"
                 xmlns="http://www.w3.org/2000/svg"
-                height="24"
                 viewBox="0 0 24 24"
-                width="24"
             >
                 <title>Open Menu</title>
                 <path d="M0 0h24v24H0z" fill="none" />
@@ -86,7 +83,7 @@
         </ul>
     </div>
 
-    <div class="hidden items-center justify-end gap-2 md:flex lg:gap-5">
+    <div class="hidden items-center justify-end md:flex lg:gap-5">
         <x-icon-bar />
     </div>
 </nav>
