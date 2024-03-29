@@ -5,7 +5,6 @@
     <div class="mx-auto max-w-7xl px-4">
         <!-- Main Hero Content -->
         <div class="container mt-4 md:mt-24 flex flex-col justify-center items-center gap-5 max-w-lg mx-auto text-left md:max-w-none md:text-center">
-{{--            <img src="assets/name.png" class="h-48" title="A graphical image of Dan Mason's name"/>--}}
             <section class="font-grand flex flex-col items-center md:grid grid-cols-2 gap-5 px-4">
                 <div class="prose-2xl flex flex-col gap-5 text-start">
                     <div>
@@ -42,7 +41,7 @@
                     </div>
                     <img
                         class="max-h-72 aspect-square rounded-full border-2 border-teal-500 group-hover:border-4 group-hover:border-orange-600 duration-200 group-hover:rotate-6"
-                        src="assets/profile.jpeg"
+                        src="assets/profile.png"
                         title="An image of Dan Mason wearing a blue suite."
                     />
                 </div>
