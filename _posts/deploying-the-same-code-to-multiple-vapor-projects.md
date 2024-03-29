@@ -4,7 +4,7 @@ description: 'I have been using Laravel Vapor since it was launched at our compa
 category: Laravel
 author: 'danmason'
 date: '2020-09-04 11:45'
-image: '//assets/deploying-the-same-code-to-multiple-vapor-projects/card.png'
+image: 'assets/deploying-the-same-code-to-multiple-vapor-projects/card.png'
 ---
 
 I have been using [Laravel Vapor](https://vapor.laravel.com/) since it was launched at our company to deploy our
