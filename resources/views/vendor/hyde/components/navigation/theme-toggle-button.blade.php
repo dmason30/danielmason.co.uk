@@ -1,14 +1,14 @@
 @if (Hyde::hasFeature("darkmode"))
     <button
         @click="toggleTheme"
-        {{ $attributes->merge(["class" => "theme-toggle-button p-2 flex items-center hover:text-gray-700 dark:text-gray-200"]) }}
+        {{ $attributes->merge(["class" => "theme-toggle-button p-2 group flex items-center hover:text-gray-700 dark:text-gray-200"]) }}
         title="Toggle theme"
     >
         <span class="sr-only">Toggle dark theme</span>
         <svg
             width="1.25rem"
             height="1.25rem"
-            class="hidden h-8 w-8 fill-white hover:fill-teal-600 dark:block"
+            class="hidden h-8 w-8 fill-white group-hover:fill-teal-500 dark:block"
             fill="#FFFFFF"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
@@ -22,7 +22,7 @@
         <svg
             width="1.25rem"
             height="1.25rem"
-            class="block h-8 w-8 fill-current hover:fill-teal-500 dark:hidden"
+            class="block h-8 w-8 fill-current group-hover:fill-teal-500 dark:hidden"
             fill="currentColor"
             viewBox="0 0 20 20"
             xmlns="http://www.w3.org/2000/svg"
