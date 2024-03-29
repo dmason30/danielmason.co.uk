@@ -1,4 +1,4 @@
-@php($title = 'Blog')
+@php($title = 'Personal Site')
 @extends('hyde::layouts.app')
 @section('content')
 <main class="my-auto antialiased">
