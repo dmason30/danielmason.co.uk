@@ -5,4 +5,4 @@
 {{ Site::metadata() }}
 
 {{-- Add any extra tags to include in the <head> section --}}
-@stack('meta')
+@stack("meta")

@@ -1,56 +1,53 @@
 @php($title = 'Blog')
 @extends('hyde::layouts.app')
 @section('content')
-<main class="my-auto px-6 pb-12 antialiased app-gradient-dark">
-    <div class="mx-auto max-w-7xl">
+<main class="my-auto antialiased">
+    <div class="mx-auto max-w-7xl px-4">
         <!-- Main Hero Content -->
-        <div class="container max-w-lg px-4 py-32 mx-auto text-left md:max-w-none md:text-center">
-            <h1
-                class="text-5xl font-extrabold leading-10 tracking-tight text-left text-gray-100 md:text-center sm:leading-none md:text-6xl lg:text-7xl">
-                <span class="block text-4xl md:text-5xl mb-4 sm:mb-0">You're running on </span><span
-                    class="relative mt-2 text-transparent bg-clip-text bg-gradient-to-br logo-gradient md:inline-block drop-shadow-2xl tracking-normal">HydePHP</span>
-            </h1>
-            <div class="mx-auto mt-8 sm:mt-4 text-gray-200 md:mt-8 md:max-w-2xl md:text-center">
-                <section aria-label="About Hyde">
-                    <p class="lg:text-lg">
-                        Leap into the future of static HTML blogs and documentation with the tools you already know and love.
-                        Made with Tailwind, Laravel, and Coffee.
-                    </p>
-                </section>
-
-                <section aria-label="About this page">
-                    <p class="mt-4 mb-4">
-                        This is the default homepage stored as index.blade.php, however you can publish any of the built-in views using the following command:
-
-                        <!-- Syntax highlighted by torchlight.dev -->
-                    <pre style="margin-top: 1.5rem; margin-bottom: 1.5rem;"><code data-theme="material-theme-palenight" data-lang="bash" class="torchlight" style="background-color: #292D3E; padding: 0.5rem 1rem; border-radius: 0.25rem;"><span style="color: #FFCB6B;">php hyde</span> <span style="color: #C3E88D;">publish:homepage</span></code></pre>
-                    </p>
-                </section>
-
-                <div class="mt-4 md:mt-8 text-white">
-                    <span class="sr-only">Resources for getting started</span>
-                    <ul class="flex flex-wrap justify-center list-none" style="padding: 0;">
-                        <li>
-                            <a href="https://hydephp.com/docs/1.x" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                Documentation
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://hydephp.com/docs/1.x/getting-started" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                Getting Started
-                            </a>
-                        </li>
-                        <li>
-
-                            <a href="https://github.com/hydephp/hyde" class="uppercase font-bold text-sm flex text-center m-2 mx-3">
-                                GitHub Source Code
-                            </a>
-                        </li>
-                    </ul>
+        <div class="container mt-4 md:mt-24 flex flex-col justify-center items-center gap-5 max-w-lg mx-auto text-left md:max-w-none md:text-center">
+{{--            <img src="assets/name.png" class="h-48" title="A graphical image of Dan Mason's name"/>--}}
+            <section class="font-grand flex flex-col items-center md:grid grid-cols-2 gap-5 px-4">
+                <div class="prose-2xl flex flex-col gap-5 text-start">
+                    <div>
+                        <div class="font-sans text-7xl font-bold bg-gradient-to-r from-teal-500 via-orange-500 to-orange-600 dark:from-teal-500 dark:via-green-500 dark:to-orange-600 inline-block text-transparent bg-clip-text">
+                            Dan Mason
+                        </div>
+                    </div>
+                    <div>
+                        I am a Full-Stack Developer with 10+ years experience and 7+ years using Laravel PHP for backend. I have used ReactJs, Vue and more on the frontend.
+                    </div>
+                    <div class="group">
+                        Wolverhampton Wanderers football club fan.
+                        <div class="inline-block group-hover:animate-bounce">&#9917;</div>
+                    </div>
+                    <div>
+                        You can find me helping and educating other developers on the Laravel Discord.
+                    </div>
+                    <div class="gap-5 hidden md:flex">
+                        <x-socials />
+                    </div>
                 </div>
-            </div>
+                <div class="relative flex justify-center group">
+                    <div class="absolute z-50 left-28 hidden md:block -mt-28 lg:-mt-24">
+                        <div class="-ml-12">
+                            <div class="rotate-6 block group-hover:hidden">
+                                This is me :)
+                            </div>
+                            <div class="transition duration-200 rotate-90 group-hover:rotate-12 hidden group-hover:block">
+                                Hello World! &#128075;
+                            </div>
+                        </div>
+                        <br />
+                        <x-arrow class="scale-150 mt-2 mb-2 rotate-45 text-orange-600 group-hover:text-teal-500" />
+                    </div>
+                    <img
+                        class="max-h-72 aspect-square rounded-full border-2 border-teal-500 group-hover:border-4 group-hover:border-orange-600 duration-200 group-hover:rotate-6"
+                        src="assets/profile.jpeg"
+                        title="An image of Dan Mason wearing a blue suite."
+                    />
+                </div>
+            </section>
         </div>
-        <!-- End Main Hero Content -->
     </div>
 </main>
 @endsection

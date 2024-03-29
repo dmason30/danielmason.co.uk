@@ -38,7 +38,7 @@ return [
     |
     */
 
-    'name' => env('SITE_NAME', 'HydePHP'),
+    'name' => env('SITE_NAME', 'Dan Mason'),
 
     /*
     |--------------------------------------------------------------------------
@@ -116,7 +116,7 @@ return [
         'filename' => 'feed.xml',
 
         // The channel description.
-        'description' => env('SITE_NAME', 'HydePHP').' RSS Feed',
+        'description' => env('SITE_NAME', 'Dan Mason').' RSS Feed',
     ],
 
     /*
@@ -216,12 +216,16 @@ return [
     */
 
     'meta' => [
-        // Meta::name('author', 'Mr. Hyde'),
-        // Meta::name('twitter:creator', '@HydeFramework'),
-        // Meta::name('description', 'My Hyde Blog'),
-        // Meta::name('keywords', 'Static Sites, Blogs, Documentation'),
+        Meta::name('author', 'Dan Mason'),
+        Meta::name('twitter:card', 'summary_large_image'),
+        Meta::name('twitter:site', '@danmasonmp'),
+        Meta::name('twitter:creator', '@danmasonmp'),
+        Meta::name('twitter:description', $description ='Discoveries by developer Dan Mason in the world of Laravel, PHP and all software engineering.'),
+        Meta::name('description', $description),
+        Meta::name('keywords', 'Laravel, PJP, ReactJS, Vue, Dan Mason, Fidum, Daniel, Mason, Blog, Developer, Software, Engineer'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
-        Meta::property('site_name', env('SITE_NAME', 'HydePHP')),
+        Meta::property('site_name', env('SITE_NAME', 'Dan Mason - Personal Site')),
+        Meta::property('description', $description),
     ],
 
     /*
@@ -286,7 +290,7 @@ return [
 
     'authors' => [
         Author::create(
-            'danmasonmp', // Required username
+            'danmason', // Required username
             'Dan Mason', // Optional display name
             'https://x.com/danmasonmp' // Optional website URL
         ),

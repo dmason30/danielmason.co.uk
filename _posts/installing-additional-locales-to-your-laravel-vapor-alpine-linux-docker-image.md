@@ -2,7 +2,7 @@
 title: 'Installing additional locales to your Laravel Vapor Alpine Linux Docker image'
 description: 'Explore the step-by-step process of integrating locales into your Laravel Vapor environment. This guide focuses on the essentials of adding locales to your Dockerfile, ensuring compatibility for a range of locale-based functionalities'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2023-12-08 14:06'
 image: 'assets/installing-additional-locales-to-your-laravel-vapor-alpine-linux-docker-image/card.png'
 ---

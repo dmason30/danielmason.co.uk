@@ -1,4 +1,10 @@
-<a href="{{ $item }}" {!! $item->isCurrent() ? 'aria-current="page"' : '' !!} @class([
-    'block my-2 md:my-0 md:inline-block py-1 text-gray-700 hover:text-gray-900 dark:text-gray-100',
-    'border-l-4 border-indigo-500 md:border-none font-medium -ml-6 pl-5 md:ml-0 md:pl-0 bg-gray-100 dark:bg-gray-800 md:bg-transparent dark:md:bg-transparent' => $item->isCurrent()
-])>{{ $item->label }}</a>
+<a
+    href="{{ $item }}"
+    {!! $item->isCurrent() ? 'aria-current="page"' : "" !!}
+    @class([
+        "my-2 block py-1 text-gray-700 dark:text-white md:my-0 md:inline-block md:text-black dark:md:text-black",
+        "-ml-6 border-l-4 border-teal-500 bg-gray-100 pl-5 font-medium dark:bg-gray-800 md:ml-0 md:border-none md:bg-transparent md:pl-0 dark:md:bg-transparent" => $item->isCurrent(),
+    ])
+>
+    {{ $item->label }}
+</a>

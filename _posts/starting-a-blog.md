@@ -2,7 +2,7 @@
 title: 'Starting a blog'
 description: 'Inspired by the big names in the Laravel and wider development community I have always wanted to start a blog. Mostly, I will write mostly about things I learn and practices I follow while maintaining several large applications at my work and in personal projects. I also hope it will help others to learn and try new things when developing their own applications. The posts will mostly be about Laravel but I also do a lot of frontend work with React and always trying out the new kids on the block where possible.'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2020-08-31 15:05'
 image: 'assets/starting-a-blog/card.png'
 ---

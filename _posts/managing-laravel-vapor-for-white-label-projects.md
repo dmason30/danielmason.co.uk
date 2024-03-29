@@ -2,7 +2,7 @@
 title: 'Managing Laravel Vapor for White-Label Projects'
 description: 'Discover how to effectively manage your Laravel Vapor setup for white-label projects. Our expert guide offers valuable insights and practical tips for optimizing your vapor setup, including moving to GitHub Actions, switching to the docker runtime, and implementing environment file encryption. With this comprehensive guide, you will be equipped to take your Laravel vapor setup to the next level.'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2023-04-18 21:15'
 image: 'assets/managing-laravel-vapor-for-white-label-projects/card.png'
 ---

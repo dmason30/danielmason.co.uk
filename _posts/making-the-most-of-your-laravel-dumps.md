@@ -2,7 +2,7 @@
 title: 'Making the most of your Laravel dumps'
 description: 'Laravel has a number of convenient methods to help speed up your development. In this post, I will show you the benefits of dump and some fluent APIs that have this wonderful function available.'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2020-09-02 18:23'
 image: 'assets/making-the-most-of-your-laravel-dumps/card.png'
 ---
@@ -13,9 +13,7 @@ show you what mastering your dumps can do and showcase some fluent APIs that hav
 
 <!--more-->
 
-# :poop: :poop: :poop:
-
-## Poop jokes are not funny! :angry: Just tell me what a dump is!
+## Just tell me what a dump is!
 All puns aside, I am sure most reading this will have used `dd` or `dump` at some point, so I will keep this brief
 , but for those that don't know it is an alternative to using the traditional `var_dump` or `die` as a way to output
  the contents of some variables or objects. Take the below example code:

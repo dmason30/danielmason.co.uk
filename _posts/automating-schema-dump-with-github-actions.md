@@ -3,7 +3,7 @@ title: 'Automating the Laravel 8 schema dump using GitHub Actions'
 description: 'The release of Laravel 8 introduced us to many great new features and I think it is one of the best releases we have ever had! However, the schema dump command is far by the most useful for me in some personal 
 projects and for the large projects I work on everyday at work.'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2020-09-14 14:56'
 image: 'assets/automating-schema-dump-with-github-actions/card.png'
 ---

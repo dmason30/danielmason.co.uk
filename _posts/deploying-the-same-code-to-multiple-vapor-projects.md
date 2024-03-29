@@ -2,7 +2,7 @@
 title: 'Deploying the same code to multiple Laravel Vapor projects'
 description: 'I have been using Laravel Vapor since it was launched at our company to deploy our white-label product to multiple different aws accounts and projects. The problem is that when you configure vapor it has a one-to-one relation between your code, and a vapor project. As a result we had to do some workarounds to support our setup.'
 category: Laravel
-author: 'Dan Mason'
+author: 'danmason'
 date: '2020-09-04 11:45'
 image: 'assets/deploying-the-same-code-to-multiple-vapor-projects/card.png'
 ---

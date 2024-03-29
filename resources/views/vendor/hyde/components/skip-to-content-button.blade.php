@@ -1,1 +1,7 @@
-<a href="#content" id="skip-to-content" class="sr-only focus:not-sr-only bg-black border-4 border-yellow-400 focus:absolute focus:mt-2 focus:mx-auto focus:p-2 focus:w-64 h-auto left-0 overflow-auto right-0 rounded-md text-center text-lg text-white top-auto z-50 ">Skip to content</a>
+<a
+    href="#content"
+    id="skip-to-content"
+    class="sr-only left-0 right-0 top-auto z-50 h-auto overflow-auto rounded-md border-4 border-yellow-400 bg-black text-center text-lg text-white focus:not-sr-only focus:absolute focus:mx-auto focus:mt-2 focus:w-64 focus:p-2"
+>
+    Skip to content
+</a>

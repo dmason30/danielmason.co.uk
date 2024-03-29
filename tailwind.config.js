@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme');
+const colors = require('tailwindcss/colors');
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -21,9 +22,10 @@ module.exports = {
                             marginTop: '1.5em',
                         },
                         a: {
-                            color: '#5956eb',
+                            color: colors.orange['600'],
                             '&:hover': {
-                                color: '#4f46e5',
+                                color: colors.orange['500'],
+                                textDecoration: 'underline',
                             },
                             textDecoration: 'none'
                         },
@@ -76,9 +78,9 @@ module.exports = {
                 invert: {
                     css: {
                         a: {
-                            color: '#818cf8',
+                            color: colors.teal['500'],
                             '&:hover': {
-                                color: '#6366f1',
+                                color: colors.teal['400'],
                             },
                         },
                     },
@@ -89,6 +91,9 @@ module.exports = {
                     500: '#5956eb',
                 }
             },
+            fontFamily: {
+                grand: ['Delius', 'sans-serif']
+            }
         },
     },
 

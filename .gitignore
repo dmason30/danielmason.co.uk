@@ -7,6 +7,7 @@
 /.vagrant
 /.cache
 .phpunit.result.cache
+*.cache.json
 
 .env
 
