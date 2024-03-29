@@ -228,7 +228,7 @@ return [
         Meta::name('twitter:creator', '@danmasonmp'),
         Meta::name('twitter:description', $description),
         Meta::name('twitter:title', $title),
-        Meta::property('image', '/assets/feature-card.png'),
+        Meta::property('image', 'https://danielmason.co.uk/assets/feature-card.png'),
         Meta::property('image:alt', 'Dan Mason Image'),
     ],
 
