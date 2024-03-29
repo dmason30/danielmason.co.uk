@@ -5,7 +5,7 @@
 <nav
     aria-label="Main navigation"
     id="main-navigation"
-    class="align-center flex w-full flex-wrap items-center border-b bg-[#d0d7de] bg-opacity-25 p-4 dark:border-none dark:bg-black md:flex-row md:flex-nowrap md:border-none md:bg-inherit dark:md:bg-inherit xl:mx-auto xl:max-w-7xl"
+    class="align-center flex w-full flex-wrap items-center border-b bg-teal-50 p-4 dark:border-none dark:bg-black md:flex-row md:flex-nowrap md:border-none md:bg-transparent dark:md:bg-transparent xl:mx-auto xl:max-w-7xl"
 >
     <div
         class="flex flex-shrink-0 flex-grow items-center text-gray-700 dark:text-gray-200 md:flex-none"

@@ -5,7 +5,6 @@ namespace App\Domains\Packagist\Actions;
 use App\Domains\Packagist\Data\PackageData;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\Http;
-use Illuminate\Support\Str;
 use Lorisleiva\Actions\Concerns\AsAction;
 
 class GetPackagesRequestAction
@@ -32,13 +31,10 @@ class GetPackagesRequestAction
             file_put_contents($path, $results->toJson());
         }
 
-        $uuid = Str::orderedUuid();
-
         return $results->map(fn (array $data, string $name) => new PackageData(
             name: $name,
             repository: $data['repository'],
             abandoned: (bool) $data['abandoned'],
-            uuid: $uuid,
         ));
     }
 }

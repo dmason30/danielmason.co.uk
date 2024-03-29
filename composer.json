@@ -49,7 +49,8 @@
         "post-autoload-dump": [
             "@php -r \"@unlink('./app/storage/framework/cache/packages.php');\"",
             "@php hyde package:discover --ansi"
-        ]
+        ],
+        "fix": "vendor/bin/pint"
     },
     "config": {
         "preferred-install": "dist",

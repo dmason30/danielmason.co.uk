@@ -217,7 +217,7 @@ return [
 
     'meta' => [
         Meta::name('author', 'Dan Mason'),
-        Meta::name('description', $description ='Discoveries by developer Dan Mason in the world of Laravel, PHP and all software engineering.'),
+        Meta::name('description', $description = 'Discoveries by developer Dan Mason in the world of Laravel, PHP and all software engineering.'),
         Meta::name('keywords', 'Laravel, PJP, ReactJS, Vue, Dan Mason, Fidum, Daniel, Mason, Blog, Developer, Software, Engineer'),
         Meta::name('generator', 'HydePHP v'.Hyde\Hyde::version()),
         Meta::property('url', 'https://danielmason.co.uk/'),
@@ -473,7 +473,7 @@ return [
 
     // Change the file extensions to be considered as media files and are copied to the output directory.
     // If you want to add more extensions, add it to the empty merge array, or just override the entire array.
-    'media_extensions' => array_merge([], \Hyde\Support\Filesystem\MediaFile::EXTENSIONS),
+    'media_extensions' => array_merge(['webmanifest'], \Hyde\Support\Filesystem\MediaFile::EXTENSIONS),
 
     // The list of directories that are considered to be safe to empty upon site build.
     // If the site output directory is set to a directory that is not in this list,
