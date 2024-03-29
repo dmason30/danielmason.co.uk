@@ -4,7 +4,7 @@ description: 'Discover how to effectively manage your Laravel Vapor setup for wh
 category: Laravel
 author: 'danmason'
 date: '2023-04-18 21:15'
-image: '../assets/managing-laravel-vapor-for-white-label-projects/card.png'
+image: 'https://danielmason.co.uk/assets/managing-laravel-vapor-for-white-label-projects/card.png'
 ---
 
 I've been utilizing [Laravel Vapor](https://vapor.laravel.com/) since it was first released to deploy our white-label product to numerous AWS accounts and projects. However, Vapor has a one-to-one relationship between your code and a Vapor project, which led us to create workarounds to support our setup.

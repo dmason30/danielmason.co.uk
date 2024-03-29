@@ -1,5 +1,9 @@
 @php
     /** @var \Hyde\Pages\MarkdownPost $post */
+    $domain = 'https://danielmason.co.uk';
+    $imageUrl = !str_contains($post->image, $domain) || app()->environment('production')
+        ? $post->image
+        : str($post->image)->after($domain)->start('/')->toString()
 @endphp
 
 <article
@@ -17,7 +21,7 @@
 
     <a href="{{ $post->getRoute() }}" class="-mx-2 block w-fit rounded-lg">
         <img
-            src="{{ $post->image }}"
+            src="{{ $imageUrl }}"
             alt="{{ $post->title }}"
             title="{{ $post->title }}"
             class="aspect-[16/9] w-full rounded-t-lg object-cover"

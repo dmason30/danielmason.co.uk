@@ -4,7 +4,7 @@ description: 'Inspired by the big names in the Laravel and wider development com
 category: Laravel
 author: 'danmason'
 date: '2020-08-31 15:05'
-image: '../assets/starting-a-blog/card.png'
+image: 'https://danielmason.co.uk/assets/starting-a-blog/card.png'
 ---
 
 Inspired by the big names in the [Laravel](https://laravel.com) and wider development community I have always wanted
