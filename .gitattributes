@@ -11,3 +11,13 @@ tests/ export-ignore
 CHANGELOG.md export-ignore
 LICENSE.md export-ignore
 SECURITY.md export-ignore
+
+# (binary is a macro for -text -diff)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.ttf binary
+*.eot binary
+*.woff binary
