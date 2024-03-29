@@ -9,7 +9,7 @@
     "prepare": "husky"
   },
   "lint-staged": {
-    "**/*.blade.php": "prettier --write --ignore-unknown",
+    "**/*.blade.php": "prettier --write",
     "**/*.php": "composer fix"
   },
   "devDependencies": {
