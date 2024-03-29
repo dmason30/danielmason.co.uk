@@ -5,7 +5,7 @@ projects and for the large projects I work on everyday at work.'
 category: Laravel
 author: 'danmason'
 date: '2020-09-14 14:56'
-image: 'assets/automating-schema-dump-with-github-actions/card.png'
+image: '//assets/automating-schema-dump-with-github-actions/card.png'
 ---
 
 The release of Laravel 8 introduced us to many great new features, and I think it is one of the best releases we have

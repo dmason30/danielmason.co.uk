@@ -4,7 +4,7 @@ description: 'Explore the step-by-step process of integrating locales into your 
 category: Laravel
 author: 'danmason'
 date: '2023-12-08 14:06'
-image: 'assets/installing-additional-locales-to-your-laravel-vapor-alpine-linux-docker-image/card.png'
+image: '//assets/installing-additional-locales-to-your-laravel-vapor-alpine-linux-docker-image/card.png'
 ---
 
 Alpine Linux only comes with an english locale by default. If you want to use the php intl extension for formatting dates, numbers and more based on different locales then this blog post will show you how to

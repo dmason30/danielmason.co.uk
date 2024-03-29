@@ -4,7 +4,7 @@ description: 'Laravel has a number of convenient methods to help speed up your d
 category: Laravel
 author: 'danmason'
 date: '2020-09-02 18:23'
-image: 'assets/making-the-most-of-your-laravel-dumps/card.png'
+image: '//assets/making-the-most-of-your-laravel-dumps/card.png'
 ---
 
 Laravel has a number of convenient methods to help speed up your development. When developing you sometimes need to
