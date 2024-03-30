@@ -1,25 +1,34 @@
 @php
-$title = 'Packages';
-$packages = \App\Domains\Packagist\Actions\GetPackagesRequestAction::make()->handle();
+    $title = "Packages";
+    $packages = \App\Domains\Packagist\Actions\GetPackagesRequestAction::make()->handle();
 @endphp
-@extends('hyde::layouts.app')
-@section('content')
-    <main id="content" class="mx-auto max-w-7xl py-12 px-8 flex flex-col gap-5">
 
-        <header class="prose dark:prose-invert font-grand">
+@extends("hyde::layouts.app")
+@section("content")
+    <main id="content" class="mx-auto flex max-w-7xl flex-col gap-5 px-8 py-12">
+        <header class="prose font-grand dark:prose-invert">
             Check out my
-            <a href="https://opendor.me/@dmason30" target="_blank" rel="noreferrer noopener">OpenDor.Me profile</a>
+            <a
+                href="https://opendor.me/@dmason30"
+                target="_blank"
+                rel="noreferrer noopener"
+            >
+                opendor.me profile
+            </a>
             for the many third party open source packages I have contributed to.
         </header>
 
-        <div id="packages-feed" class="mx-auto grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            @foreach($packages as $package)
-                @if(! $package->abandoned)
-                    <a href="{{$package->repository}}" class="">
+        <div
+            id="packages-feed"
+            class="mx-auto grid gap-4 md:grid-cols-2 lg:grid-cols-3"
+        >
+            @foreach ($packages as $package)
+                @if (! $package->abandoned)
+                    <a href="{{ $package->repository }}" class="">
                         <img
-                            class="border rounded-lg hover:border-orange-600"
-                            src="{{$package->imageUrl}}"
-                            alt="{{$package->name}}"
+                            class="rounded-lg border hover:border-orange-600"
+                            src="{{ $package->imageUrl }}"
+                            alt="{{ $package->name }}"
                         />
                     </a>
                 @endif
