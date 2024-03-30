@@ -104,7 +104,7 @@ We have experience deploying to S3 using GitHub Actions as the frontend of our a
 with cloudfront. So we created a new S3 bucket in our central AWS account and put a GitHub Actions `deploy.yml` workflow file
 in our vapor config repository.
 
-```yml
+```yaml
 name: "Deploy to Cloud"
 
 on:
