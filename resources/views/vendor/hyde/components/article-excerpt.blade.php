@@ -29,7 +29,6 @@
             alt="{{ $post->title }}"
             title="{{ $post->title }}"
             class="aspect-[16/9] w-full rounded-t-lg object-cover"
-            loading="lazy"
         />
     </a>
 
@@ -84,3 +83,7 @@
         </a>
     </footer>
 </article>
+
+@push("meta")
+    <link rel="preload" href="{{ $imageUrl }}" as="image" />
+@endpush

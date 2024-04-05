@@ -63,7 +63,6 @@
                             class="aspect-square max-h-72 rounded-full border-2 border-teal-500 duration-200 group-hover:rotate-6 group-hover:border-4 group-hover:border-orange-600"
                             src="assets/profile.png"
                             title="An image of Dan Mason wearing a blue suite."
-                            loading="lazy"
                         />
                     </div>
                 </section>
@@ -71,3 +70,7 @@
         </div>
     </main>
 @endsection
+
+@push("meta")
+    <link rel="preload" href="assets/profile.png" as="image" />
+@endpush

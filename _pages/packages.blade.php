@@ -29,7 +29,6 @@
                             class="rounded-lg border hover:border-orange-600"
                             src="{{ $package->imageUrl }}"
                             alt="{{ $package->name }}"
-                            loading="lazy"
                         />
                     </a>
                 @endif
@@ -37,3 +36,9 @@
         </div>
     </main>
 @endsection
+
+@push("meta")
+    @foreach ($packages as $package)
+        <link rel="preload" href="{{ $package->imageUrl }}" as="image" />
+    @endforeach
+@endpush
