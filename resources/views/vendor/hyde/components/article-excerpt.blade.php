@@ -29,6 +29,7 @@
             alt="{{ $post->title }}"
             title="{{ $post->title }}"
             class="aspect-[16/9] w-full rounded-t-lg object-cover"
+            loading="lazy"
         />
     </a>
 

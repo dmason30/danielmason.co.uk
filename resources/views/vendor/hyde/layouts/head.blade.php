@@ -12,12 +12,20 @@
 @include("hyde::layouts.meta")
 
 {{-- App Stylesheets --}}
+@php($fontUrl = "https://fonts.googleapis.com/css2?family=Delius&display=swap")
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link
-    href="https://fonts.googleapis.com/css2?family=Delius&display=swap"
+    href="{{ $fontUrl }}"
     rel="stylesheet"
+    media="print"
+    onload="this.onload=null;this.removeAttribute('media');"
+    fetchpriority="high"
 />
+<noscript>
+    <link rel="stylesheet" href="{{ $fontUrl }}" />
+</noscript>
+
 @include("hyde::layouts.styles")
 
 @if (Hyde::hasFeature("darkmode"))

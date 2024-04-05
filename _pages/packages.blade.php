@@ -29,6 +29,7 @@
                             class="rounded-lg border hover:border-orange-600"
                             src="{{ $package->imageUrl }}"
                             alt="{{ $package->name }}"
+                            loading="lazy"
                         />
                     </a>
                 @endif
