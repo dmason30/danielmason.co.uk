@@ -1,7 +1,7 @@
 @if (config("hyde.footer") !== false)
     <footer
         aria-label="Page footer"
-        class="min-h-content flex w-full justify-end p-4 font-grand text-xl"
+        class="min-h-content flex w-full justify-end p-4 font-delius text-xl"
     >
         <a
             href="#app"

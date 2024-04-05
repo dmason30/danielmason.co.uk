@@ -68,7 +68,7 @@
         >
             @foreach ($navigation->items as $item)
                 <li
-                    class="font-grand md:mx-2 md:bg-teal-500 md:px-2 md:text-2xl md:transition md:duration-200 odd:md:rotate-6 even:md:-rotate-6 hover:md:rotate-0 hover:md:scale-110 hover:md:bg-orange-600 lg:text-3xl"
+                    class="font-delius md:mx-2 md:bg-teal-500 md:px-2 md:text-2xl md:transition md:duration-200 odd:md:rotate-6 even:md:-rotate-6 hover:md:rotate-0 hover:md:scale-110 hover:md:bg-orange-600 lg:text-3xl"
                 >
                     @if ($item instanceof \Hyde\Framework\Features\Navigation\DropdownNavItem)
                         <x-hyde::navigation.dropdown

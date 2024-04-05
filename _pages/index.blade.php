@@ -8,7 +8,7 @@
                 class="container mx-auto mt-4 flex max-w-lg flex-col items-center justify-center gap-5 text-left md:mt-24 md:max-w-none md:text-center"
             >
                 <section
-                    class="flex grid-cols-2 flex-col items-center gap-5 px-4 font-grand md:grid"
+                    class="flex grid-cols-2 flex-col items-center gap-5 px-4 font-delius md:grid"
                 >
                     <div class="prose-2xl flex flex-col gap-5 text-start">
                         <div>

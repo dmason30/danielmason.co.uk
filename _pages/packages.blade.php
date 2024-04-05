@@ -6,7 +6,7 @@
 @extends("hyde::layouts.app")
 @section("content")
     <main id="content" class="mx-auto flex max-w-7xl flex-col gap-5 px-8 py-12">
-        <header class="prose font-grand dark:prose-invert">
+        <header class="prose font-delius dark:prose-invert">
             Check out my
             <a
                 href="https://opendor.me/@dmason30"

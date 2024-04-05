@@ -92,7 +92,7 @@ module.exports = {
                 }
             },
             fontFamily: {
-                grand: ['Delius', 'sans-serif']
+                delius: ['Delius', 'sans-serif']
             }
         },
     },
