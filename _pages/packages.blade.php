@@ -23,15 +23,13 @@
             class="mx-auto grid gap-4 md:grid-cols-2 lg:grid-cols-3"
         >
             @foreach ($packages as $package)
-                @if (! $package->abandoned)
-                    <a href="{{ $package->repository }}" class="">
-                        <img
-                            class="rounded-lg border hover:border-orange-600"
-                            src="{{ $package->imageUrl }}"
-                            alt="{{ $package->name }}"
-                        />
-                    </a>
-                @endif
+                <a href="{{ $package->repository }}" class="">
+                    <img
+                        class="rounded-lg border hover:border-orange-600"
+                        src="{{ $package->imageUrl }}"
+                        alt="{{ $package->name }}"
+                    />
+                </a>
             @endforeach
         </div>
     </main>

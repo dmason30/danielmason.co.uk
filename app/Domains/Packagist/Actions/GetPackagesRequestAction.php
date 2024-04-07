@@ -31,10 +31,11 @@ class GetPackagesRequestAction
             file_put_contents($path, $results->toJson());
         }
 
-        return $results->map(fn (array $data, string $name) => new PackageData(
-            name: $name,
-            repository: $data['repository'],
-            abandoned: (bool) $data['abandoned'],
-        ));
+        return $results
+            ->reject(fn (array $data) => (bool) $data['abandoned'])
+            ->map(fn (array $data, string $name) => new PackageData(
+                name: $name,
+                repository: $data['repository'],
+            ));
     }
 }
