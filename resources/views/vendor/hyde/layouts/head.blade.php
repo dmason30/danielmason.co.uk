@@ -1,5 +1,7 @@
 <meta charset="utf-8" />
+<meta property="og:type" content="website" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
+
 <title>{{ $page->title() }}</title>
 
 @if (file_exists(Hyde::mediaPath("favicon.ico")))
