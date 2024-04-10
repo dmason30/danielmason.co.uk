@@ -5,7 +5,7 @@
         <div class="mx-auto max-w-7xl px-4">
             <!-- Main Hero Content -->
             <div
-                class="container mx-auto mt-4 flex max-w-lg flex-col items-center justify-center gap-5 text-left md:max-w-none md:text-center lg:mt-24"
+                class="container mx-auto mt-4 flex max-w-lg flex-col items-center justify-center gap-5 text-left md:max-w-none md:text-center xl:mt-24"
             >
                 <section
                     class="flex grid-cols-2 flex-col items-center gap-5 px-4 font-delius md:grid"
