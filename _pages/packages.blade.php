@@ -6,7 +6,8 @@
 @extends("hyde::layouts.app")
 @section("content")
     <main id="content" class="mx-auto flex max-w-7xl flex-col gap-5 px-8 py-12">
-        <header class="prose font-delius dark:prose-invert">
+        <h1 class="text-3xl font-bold">My Open-Source Packages</h1>
+        <div class="prose font-delius text-lg dark:prose-invert">
             Check out my
             <a
                 href="https://opendor.me/@dmason30"
@@ -16,7 +17,7 @@
                 opendor.me profile
             </a>
             for the many third party open source packages I have contributed to.
-        </header>
+        </div>
 
         <div
             id="packages-feed"
@@ -28,6 +29,8 @@
                         class="rounded-lg border hover:border-orange-600"
                         src="{{ $package->imageUrl }}"
                         alt="{{ $package->name }}"
+                        width="1200"
+                        height="600"
                     />
                 </a>
             @endforeach

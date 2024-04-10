@@ -12,15 +12,21 @@
                 >
                     <div class="prose-2xl flex flex-col gap-5 text-start">
                         <h1
-                            class="mb-0 inline-block bg-gradient-to-r from-teal-500 via-orange-500 to-orange-600 bg-clip-text font-sans text-7xl font-bold text-transparent dark:from-teal-500 dark:via-green-500 dark:to-orange-600"
+                            class="mb-0 flex flex-col gap-5 font-sans font-bold"
                         >
-                            Dan Mason
+                            <div
+                                class="bg-gradient-to-r from-teal-500 via-orange-500 to-orange-600 bg-clip-text text-7xl text-transparent dark:from-teal-500 dark:via-green-500 dark:to-orange-600"
+                            >
+                                Dan Mason
+                            </div>
+                            <div class="text-3xl">
+                                Senior Full-Stack Developer
+                            </div>
                         </h1>
                         <div>
-                            I am a Full-Stack Developer with 10+ years
-                            experience and 7+ years using Laravel PHP for
-                            backend. I have used ReactJs, Vue and more on the
-                            frontend.
+                            I am a developer with 10+ years experience and 7+
+                            years using Laravel PHP for backend. I have used
+                            ReactJs, Vue and more on the frontend.
                         </div>
                         <div class="group">
                             Wolverhampton Wanderers football club fan.
