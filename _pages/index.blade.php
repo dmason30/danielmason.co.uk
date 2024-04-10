@@ -1,4 +1,4 @@
-@php($title = "Personal Site")
+@php($title = "Full-Stack Developer with 10+ years experience")
 @extends("hyde::layouts.app")
 @section("content")
     <main class="my-auto antialiased">
@@ -12,11 +12,11 @@
                 >
                     <div class="prose-2xl flex flex-col gap-5 text-start">
                         <div>
-                            <div
+                            <h1
                                 class="inline-block bg-gradient-to-r from-teal-500 via-orange-500 to-orange-600 bg-clip-text font-sans text-7xl font-bold text-transparent dark:from-teal-500 dark:via-green-500 dark:to-orange-600"
                             >
                                 Dan Mason
-                            </div>
+                            </h1>
                         </div>
                         <div>
                             I am a Full-Stack Developer with 10+ years
@@ -62,7 +62,11 @@
                         <img
                             class="aspect-square max-h-72 rounded-full border-2 border-teal-500 duration-200 group-hover:rotate-6 group-hover:border-4 group-hover:border-orange-600"
                             src="assets/profile.png"
+                            width="800"
+                            height="800"
+                            loading="eager"
                             title="An image of Dan Mason wearing a blue suite."
+                            alt="Dan Mason wearing a blue suite."
                         />
                     </div>
                 </section>
