@@ -62,8 +62,8 @@
                         <img
                             class="aspect-square max-h-72 rounded-full border-2 border-teal-500 duration-200 group-hover:rotate-6 group-hover:border-4 group-hover:border-orange-600"
                             src="assets/profile.png"
-                            width="800"
-                            height="800"
+                            {{-- width="800" --}}
+                            {{-- height="800" --}}
                             loading="eager"
                             title="An image of Dan Mason wearing a blue suite."
                             alt="Dan Mason wearing a blue suite."
