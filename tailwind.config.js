@@ -68,6 +68,12 @@ module.exports = {
                         'code::after': {
                             content: 'unset',
                         },
+                        p: {
+                            overflowWrap: 'break-word',
+                            code: {
+                                wordBreak: 'break-word',
+                            }
+                        },
                         pre: {
                             code: {
                                 fontFamily: "'Fira Code Regular', Consolas, Monospace, 'Courier New'",
