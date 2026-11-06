@@ -244,7 +244,7 @@ return [
     */
 
     // Add any extra HTML to include in the <head> tag
-    'head' => '',
+    'head' => '<script src="https://cdn.usefathom.com/script.js" data-site="OSONPYTP" data-included-domains="danielmason.co.uk,www.danielmason.co.uk" defer></script>',
 
     // Add any extra HTML to include before the closing <body> tag
     'scripts' => '',
